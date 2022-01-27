@@ -5,7 +5,7 @@ import env from './env'
   try {
     console.log('Hello World!')
     console.log(`FOO: '${env.FOO}'`)
-  } catch (err: any) {
+  } catch (err: unknown) {
     console.error(err)
     process.exit(1)
   }
