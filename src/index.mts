@@ -1,6 +1,8 @@
 import 'dotenv/config' // config is done before anything to ensure proper environment variables loaded
 
-import env from './env'
+import env from './env.mjs'
+
+//
 ;(async () => {
   try {
     console.log('Hello World!')
