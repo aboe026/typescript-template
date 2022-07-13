@@ -15,14 +15,13 @@
     "node": ">=16.13.2",
     "npm": ">=8.1.2"
   },
-  "type": "module",
-  "main": "src/index.mts",
+  "main": "src/index.ts",
   "scripts": {
     "build": "tsc",
     "clean": "rimraf build",
     "lint": "eslint . && prettier --check .",
     "lint:fix": "eslint --fix . && prettier --write .",
-    "start": "ts-node src/index.mts"
+    "start": "ts-node src/index.ts"
   },
   "dependencies": {
     "dotenv": "16.0.1",
