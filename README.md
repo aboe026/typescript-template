@@ -5,13 +5,32 @@ A launching point for a TypeScript repository
 ## Requirements
 
 - [NodeJS](https://nodejs.org)
+- [VSCode](https://code.visualstudio.com/)
+
+  - To enable [Editor SDK](https://yarnpkg.com/getting-started/editor-sdks), run
+
+    ```sh
+    yarn dlx @yarnpkg/sdks vscode
+    ```
+
+    Then in TypeScript file, simultaneously press
+
+    `ctrl` + `shift` + `p`
+
+    and choose option
+
+    `Select TypeScript Version`
+
+    then select value
+
+    `Use Workspace Version`
 
 ## Install
 
 To install dependencies, run
 
 ```sh
-npm install
+yarn install
 ```
 
 ## Custom Types
@@ -38,7 +57,7 @@ which will allow you to work with `<module_name>` as an `any` type within your c
 To execute source code, run
 
 ```sh
-npm start
+yarn start
 ```
 
 The script takes the following environment variables:
@@ -52,7 +71,7 @@ The script takes the following environment variables:
 To compile typescript into javascript, run
 
 ```sh
-npm run build
+yarn build
 ```
 
 To execute the compiled javascript, run
@@ -66,5 +85,5 @@ node build/index.js
 To lint code for programmatic and stylistic error detection, run
 
 ```sh
-npm run lint
+yarn lint
 ```

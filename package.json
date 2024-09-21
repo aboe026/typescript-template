@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "author": "Adam Boe",
   "description": "A launching point for a TypeScript repository",
-  "private": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/aboe026/typescript-template.git"
@@ -29,8 +28,9 @@
     "envalid": "8.0.0"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "7.4.0",
+    "@types/node": "22.5.5",
     "@typescript-eslint/eslint-plugin": "7.4.0",
+    "@typescript-eslint/parser": "7.4.0",
     "eslint": "8.57.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-prettier": "5.1.3",
@@ -38,5 +38,6 @@
     "rimraf": "5.0.5",
     "ts-node": "10.9.2",
     "typescript": "5.4.3"
-  }
+  },
+  "packageManager": "yarn@4.5.0"
 }
